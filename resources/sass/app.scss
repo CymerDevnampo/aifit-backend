@@ -1,0 +1,37 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+.custom-btn-edit {
+    background-color: #FFA500 !important;
+    color:white !important;
+    max-width: 20%;
+    max-height: auto !important;
+}
+
+.custom-btn-edit:hover {
+    background-color: #dd9000 !important;
+}
+
+.custom-btn-edit a{
+    color:white !important;
+    text-align: auto;
+    text-decoration: none;
+}
+
+
+.custom-btn-delete {
+    background-color: #FF0000;
+    color:white !important;
+    max-width: 20%;
+    max-height: auto !important;
+}
+
+.custom-btn-delete:hover {
+    background-color: rgb(185, 0, 0);
+}
